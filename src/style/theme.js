@@ -1,3 +1,17 @@
-const theme = {}
+import { createMuiTheme } from "@material-ui/core";
 
-export default theme
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      light: "#34c277",
+      main: "#02b355",
+      dark: "#017d3b",
+      contrastText: "#fff",
+    },
+  },
+  typography: {
+    htmlFontSize: 10,
+  },
+});
+
+export default theme;
